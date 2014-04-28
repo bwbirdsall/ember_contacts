@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: BinderFullOfPeople_development
+
+test:
+  adapter: postgresql
+  database: BinderFullOfPeople_test
