@@ -6,8 +6,8 @@ BinderFullOfPeople.NewContactController = Ember.ObjectController.extend({
 
       model.save().then(function() {
         controller.transitionToRoute('contact', model);
-      // }).catch(function() {
-      //   alert("Dadgummit, you gotta fix this stuff!");
+      }).catch(function() {
+        alert("Dadgummit, you gotta fix this stuff!");
       });
     }
   }
